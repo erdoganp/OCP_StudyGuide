@@ -2,6 +2,8 @@ package questions.chapter04.q22;
 
 import java.time.LocalDate;
 import java.time.Month;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Q22 {
     /*
@@ -27,6 +29,16 @@ G. A runtime exception is thrown.
         date.plusYears(3);
         System.out.println(date.getYear() + " " + date.getMonth()
                 + " " + date.getDayOfMonth());
+
+        List<String> list=new ArrayList<String>();
+        list.add("ankit");
+        list.add("mayank");
+        list.add("irfan");
+        list.add("jai");
+
+        list.forEach(
+                (n)->System.out.println(n)
+        );
 
 
     }
