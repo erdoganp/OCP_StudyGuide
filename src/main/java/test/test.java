@@ -1,5 +1,7 @@
 package test;
 
+import java.util.List;
+
 public class test {
    static C c=new C();
 
@@ -10,15 +12,31 @@ public class test {
    }
 
 
+    public void method(){
+        List<?> l= List.of("tesqwg","dgsdg");
+        var t =List.of("ssd","dgs");
+
+
+
+
+
+    }
 
     public static void main(String[] args) {
         System.out.println(c.size);
 
         Integer a= Integer.valueOf(100);
 
-        for(;;); //infinite loop belirtir ve sonsuz dongu oldugu için  altındaki satırlar unreachable dır
+        byte x=127;
+        x++;
+        x++;
+        System.out.println(x);
+
+
+     //   for(;;); //infinite loop belirtir ve sonsuz dongu oldugu için  altındaki satırlar unreachable dır
 
        // System.out.println();
+
     }
 
 }
