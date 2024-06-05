@@ -1,0 +1,9 @@
+javac zoo/dinos/*.java -->compile et
+
+jar -cvf zoo.dinos.jar -->jar dosyası olustur
+
+jdeps zoo.dinos.jar --dependencies leri gösterir
+
+jdeps -s zoo.dinos.jar --Summaryleri gösteris
+
+jdeps --jdk-internals zoo.dinos.jar --tavsiye edilmeyen paketleri gösterir
