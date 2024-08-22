@@ -27,7 +27,7 @@ public class NewScheduledThreadPoolExample {
         scheduledExecutorService.scheduleAtFixedRate(task2, 0, 2, TimeUnit.SECONDS);
         scheduledExecutorService.scheduleAtFixedRate(task3, 0, 2, TimeUnit.SECONDS);
 
-        System.out.println("Thread main finished");
+        System.out.println("Thread main finishedeeee");
 
     }
 }
