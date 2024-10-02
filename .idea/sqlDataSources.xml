@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="4f7ff940-4596-4985-8a7a-bd8e981e1f1d" name="postgres@192.168.1.106 Mapping">
+      <data-sources db="7b982ab8-8636-439c-9690-d5cdef7b4b54" />
+      <scope>
+        <node negative="1">
+          <node kind="database" negative="1" />
+          <node kind="database">
+            <name qname="@" />
+            <name qname="ocp-book" />
+            <name qname="postgres" />
+            <node kind="schema" negative="1" />
+          </node>
+        </node>
+      </scope>
+    </mapping>
+  </component>
+</project>
